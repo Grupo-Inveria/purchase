@@ -10,6 +10,7 @@ class PurchaseOrder(models.Model):
     _inherit = "purchase.order"
 
     internal_notes = fields.Html()
+    skip_upload = fields.Boolean(related="company_id.skip_upload", string="Skip File Upload", readonly=True)
 
     force_invoiced_status = fields.Selection(
         [

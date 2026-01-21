@@ -41,6 +41,7 @@
         "views/purchase_line_views.xml",
         "views/product_template_views.xml",
         "views/product_supplierinfo_views.xml",
+        "views/res_company_views.xml",
     ],
     "demo": [
         "demo/purchase_order_demo.xml",
